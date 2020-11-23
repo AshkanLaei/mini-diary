@@ -1,6 +1,6 @@
 import { Translations } from "../../../shared/types";
 
-const translationsEn: Translations = {
+const translationsFa: Translations = {
 	// Menu (defined by macOS)
 	"about-app": "درباره {appName}",
 	"bring-all-to-front": "Bring All to Front",
@@ -10,12 +10,12 @@ const translationsEn: Translations = {
 	edit: "ویرایش",
 	file: "فایل",
 	help: "کمک",
-	"hide-app": "Hide {appName}",
-	"hide-others": "Hide Others",
+	"hide-app": "مخفی کردن {appName}",
+	"hide-others": "مخفی کردن بقیه",
 	minimize: "",
-	paste: "Paste",
+	paste: "پیست",
 	preferences: "Preferences",
-	"quit-app": "Quit {appName}",
+	"quit-app": "خروج {appName}",
 	redo: "Redo",
 	"select-all": "انتخاب همه",
 	"show-all": "نشان دادن همه",
@@ -28,30 +28,30 @@ const translationsEn: Translations = {
 	zoom: "بزرگ کردن",
 
 	// Menu (app-specific)
-	export: "Export",
-	"export-to-format": "Export to {format}",
-	"go-to-date": "Go to Date",
-	"go-to-today": "Go to Today",
-	import: "Import",
-	"import-from-format": "Import from {format}",
-	license: "License",
+	export: "خروجی",
+	"export-to-format": "خروجی به {format}",
+	"go-to-date": "برو به تاریخ",
+	"go-to-today": "برو به امروز",
+	import: "ورودی",
+	"import-from-format": "وارد کردن از {format}",
+	license: "مجوز"
 	"lock-diary": "Lock Diary",
-	"next-day": "Next Day",
-	"next-month": "Next Month",
-	"previous-day": "Previous Day",
-	"previous-month": "Previous Month",
-	"privacy-policy": "Privacy Policy",
-	statistics: "Statistics",
-	website: "Website",
+	"next-day": "روز بعد",
+	"next-month": "ماه بعد",
+	"previous-day": "روز قبل",
+	"previous-month": "ماه قبل",
+	"privacy-policy": "سیاست حفظ حریم خصوصی",
+	statistics: "آمار",
+	website: "وب سایت",
 
 	// Weekdays
-	sunday: "Sunday",
-	monday: "Monday",
-	tuesday: "Tuesday",
-	wednesday: "Wednesday",
-	thursday: "Thursday",
-	friday: "Friday",
-	saturday: "Saturday",
+	sunday: "یک شنبه",
+	monday: "دو شنبه",
+	tuesday: "سه شنبه",
+	wednesday: "چهار شنبه",
+	thursday: "پنج شنبه",
+	friday: "جمعه",
+	saturday: "شنبه",
 
 	// Theme
 	dark: "تیره",
@@ -62,10 +62,10 @@ const translationsEn: Translations = {
 	today: "امروز",
 
 	// Editor
-	"add-a-title": "Add a title",
+	"add-a-title": "اضافه کردن یک عنوان",
 	bold: "بولد",
 	bullets: "Bullets",
-	italic: "Italic",
+	italic: "ایتالیک",
 	list: "لیست",
 	"write-something": "چیزی بنویسید",
 
@@ -77,21 +77,21 @@ const translationsEn: Translations = {
 
 	// Preferences
 	"allow-future-entries": "Allow entries in the future",
-	auto: "Auto",
+	auto: "اتوماتیک",
 	"diary-entries": "Diary entries",
 	"enable-spellcheck": "Check spelling",
-	"first-day-of-week": "First day of the week",
-	"hide-titles": "Hide titles",
-	no: "No",
-	ok: "OK",
+	"first-day-of-week": "روز اول هفته",
+	"hide-titles": "مخفی کردن عنوان ها",
+	no: "اشتباه",
+	ok: "درست",
 	"reset-diary": "Reset diary",
-	"reset-diary-confirm": "Yes, I am sure",
+	"reset-diary-confirm": "بله ، من مطمئنم",
 	"reset-diary-msg":
 		"Are you sure you want to reset your diary? This will delete all of your content. The data cannot be restored.",
 
 	// Password and directory
-	"change-directory": "Change directory",
-	"change-password": "Change password",
+	"change-directory": "تغییر دیکشنری",
+	"change-password": "تغییر رمز عبور",
 	"choose-password": "Please choose a password for your diary.",
 	"decryption-error": "Error decrypting diary file",
 	"diary-file": "Diary file",
@@ -99,41 +99,41 @@ const translationsEn: Translations = {
 	"move-error-msg": "An error occurred when moving the file",
 	"move-error-title": "Move error",
 	"move-file": "Move file",
-	"new-password": "New password",
-	password: "Password",
-	"passwords-no-match": "Passwords do not match",
-	"repeat-new-password": "Repeat new password",
-	"repeat-password": "Repeat password",
-	"select-directory": "Select directory",
-	"set-password": "Set password",
-	unlock: "Unlock",
-	"wrong-password": "Wrong password",
+	"new-password": "رمز عبور جدید",
+	password: "رمز عبور",
+	"passwords-no-match": "پسورد هم خوانی ندارد",
+	"repeat-new-password": "تکرار رمز عبور جدید",
+	"repeat-password": "تکرار رمز عبور",
+	"select-directory": "انتخاب دیکشنری",
+	"set-password": "انتخاب پسورد",
+	unlock: "بازکردن قفل",
+	"wrong-password": "رمز عبور اشتباه",
 
 	// Statistics
 	"total-entries": "total entries",
 	"entries-per-week": "entries per week",
 	"streak-best": "entries in a row (record streak)",
 	"streak-current": "entries in a row (current streak)",
-	"total-words": "total words",
+	"total-words": "جمع کلمه",
 	"words-per-entry": "words per entry",
 
 	// Import
 	"import-error-msg": "An error occurred during the import",
-	"import-error-title": "Import error",
+	"import-error-title": "خطای وارد کردن",
 	"import-instructions-day-one":
 		"Open the Day One app and export your diary under File → Export → {format}. Unzip the created file. Select the resulting {format} file in the next step to import it into {appName}.",
 	"import-instructions-jrnl":
 		"To export your jrnl diary, run {command}. Select the created JSON file in the next step to import it into {appName}.",
 	"import-instructions-mini-diary":
 		"You can import your data from a previous {appName} JSON export or from another JSON file that is formatted the same way.",
-	"start-import": "Start import",
+	"start-import": "شروع وارد کردن",
 
 	// Export
 	"export-error-msg": "An error occurred during the export",
-	"export-error-title": "Export error",
+	"export-error-title": "خطای خروجی",
 
 	// Other
-	loading: "Loading",
+	loading: "لود",
 };
 
 export default translationsEn;
