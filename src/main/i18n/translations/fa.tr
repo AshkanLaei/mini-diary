@@ -136,4 +136,4 @@ const translationsFa: Translations = {
 	loading: "لود",
 };
 
-export default translationsEn;
+export default translationsFa;
