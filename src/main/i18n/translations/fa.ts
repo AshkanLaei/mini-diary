@@ -3,7 +3,7 @@ import { Translations } from "../../../shared/types";
 const translationsFa: Translations = {
 	// Menu (defined by macOS)
 	"about-app": "درباره {appName}",
-	"bring-all-to-front": "Bring All to Front",
+	"bring-all-to-front": "جلو آوردن همه",
 	close: "بستن",
 	copy: "کپی",
 	cut: "بریدن",
@@ -14,7 +14,7 @@ const translationsFa: Translations = {
 	"hide-others": "مخفی کردن بقیه",
 	minimize: "",
 	paste: "پیست",
-	preferences: "Preferences",
+	preferences: "تنظیمات",
 	"quit-app": "خروج {appName}",
 	redo: "Redo",
 	"select-all": "انتخاب همه",
@@ -35,7 +35,7 @@ const translationsFa: Translations = {
 	import: "ورودی",
 	"import-from-format": "وارد کردن از {format}",
 	license: "مجوز"
-	"lock-diary": "Lock Diary",
+	"lock-diary": "قفل دفترچه",
 	"next-day": "روز بعد",
 	"next-month": "ماه بعد",
 	"previous-day": "روز قبل",
@@ -56,18 +56,18 @@ const translationsFa: Translations = {
 	// Theme
 	dark: "تیره",
 	light: "روشن",
-	theme: "تم",
+	theme: "پوسته",
 
 	// Calendar
 	today: "امروز",
 
 	// Editor
 	"add-a-title": "اضافه کردن یک عنوان",
-	bold: "بولد",
-	bullets: "Bullets",
-	italic: "ایتالیک",
+	bold: "ضخیم",
+	bullets: "نقطه ها",
+	italic: "مورب",
 	list: "لیست",
-	"write-something": "چیزی بنویسید",
+	"write-something": "یه چیزی بنویس",
 
 	// Search
 	clear: "پاک کردن",
@@ -76,29 +76,29 @@ const translationsFa: Translations = {
 	search: "پیدا کردن",
 
 	// Preferences
-	"allow-future-entries": "Allow entries in the future",
+	"allow-future-entries": "در آینده ورودی ها رو مجاز کن",
 	auto: "اتوماتیک",
-	"diary-entries": "Diary entries",
-	"enable-spellcheck": "Check spelling",
+	"diary-entries": "ورودی های دفترچه",
+	"enable-spellcheck": "بررسی تلفظ",
 	"first-day-of-week": "روز اول هفته",
 	"hide-titles": "مخفی کردن عنوان ها",
 	no: "اشتباه",
 	ok: "درست",
-	"reset-diary": "Reset diary",
+	"reset-diary": "بازنشانی دفترچه",
 	"reset-diary-confirm": "بله ، من مطمئنم",
 	"reset-diary-msg":
-		"Are you sure you want to reset your diary? This will delete all of your content. The data cannot be restored.",
+		"از بازنشانی دفترچه خودتون مطمئنین؟ این عمل قابل بازگشت نیست. همه محتوا پاک میشه.",
 
 	// Password and directory
 	"change-directory": "تغییر دیکشنری",
 	"change-password": "تغییر رمز عبور",
-	"choose-password": "Please choose a password for your diary.",
-	"decryption-error": "Error decrypting diary file",
-	"diary-file": "Diary file",
-	"file-exists": "Another file exists at the destination path",
-	"move-error-msg": "An error occurred when moving the file",
-	"move-error-title": "Move error",
-	"move-file": "Move file",
+	"choose-password": "لطفا یه رمز عبور برای دفترچه انتخاب کنین.",
+	"decryption-error": "خطا هنگام رمزگشایی کردن فایل دفترچه",
+	"diary-file": "فایل دفترچه",
+	"file-exists": "یه فایل دیگه در همین نشانی وجود داره",
+	"move-error-msg": "خطایی هنگام جابجایی فایل رخ داد",
+	"move-error-title": "خطای جابجایی",
+	"move-file": "جابجا کردن فایل",
 	"new-password": "رمز عبور جدید",
 	password: "رمز عبور",
 	"passwords-no-match": "پسورد هم خوانی ندارد",
